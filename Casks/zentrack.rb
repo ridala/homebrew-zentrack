@@ -19,8 +19,7 @@ cask "zentrack" do
   app "ZenTrack.app"
 
   zap trash: [
-    "~/Library/Application Support/ZenTrack",
-    "~/Library/Logs/ZenTrack",
+    "~/Library/Application Support/com.zentrack.desktop",
     "~/Library/Preferences/com.zentrack.desktop.plist",
     "~/Library/Saved Application State/com.zentrack.desktop.savedState",
   ]
