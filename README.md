@@ -5,10 +5,10 @@ Install ZenTrack for macOS:
 ```sh
 brew tap ridala/zentrack
 brew trust ridala/zentrack
-brew install --cask --no-quarantine ridala/zentrack/zentrack
+HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask ridala/zentrack/zentrack
 ```
 
-ZenTrack is currently unsigned and not notarized. The `--no-quarantine` flag is required to avoid the macOS Gatekeeper warning for this alpha build.
+ZenTrack is currently unsigned and not notarized. `HOMEBREW_CASK_OPTS="--no-quarantine"` is required to avoid the macOS Gatekeeper warning for this alpha build.
 
 To update after a new release:
 
