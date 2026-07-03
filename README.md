@@ -17,7 +17,10 @@ To update after a new release:
 ```sh
 brew update
 brew upgrade --cask zentrack
+xattr -dr com.apple.quarantine /Applications/ZenTrack.app
 ```
+
+Homebrew re-applies the quarantine flag on every install and upgrade, so the `xattr` step is needed again after upgrading.
 
 To uninstall:
 
