@@ -27,12 +27,8 @@ cask "zentrack" do
 
   caveats <<~EOS
     ZenTrack is not yet signed with an Apple Developer certificate.
-    Install with HOMEBREW_CASK_OPTS=--no-quarantine to avoid the macOS Gatekeeper warning:
+    After installing, clear the quarantine flag before opening the app:
 
-      HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask ridala/zentrack/zentrack
-
-    If already installed and blocked, clear the quarantine flag:
-
-      xattr -d com.apple.quarantine /Applications/ZenTrack.app
+      xattr -dr com.apple.quarantine /Applications/ZenTrack.app
   EOS
 end
