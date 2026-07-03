@@ -3,6 +3,8 @@
 Install ZenTrack for macOS:
 
 ```sh
+brew tap ridala/zentrack
+brew trust ridala/zentrack
 brew install --cask --no-quarantine ridala/zentrack/zentrack
 ```
 
