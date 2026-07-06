@@ -1,6 +1,6 @@
 cask "zentrack" do
-  version "0.0.11"
-  sha256 "cee64f48d022cad86aa95eee9d4e3be074d4961a7da76225fb7ecdf6ba2f6738"
+  version "0.0.111"
+  sha256 "575b1a307a142db1cb1004bafe187ffa9a0cbdf946e56ea64d1b050d04be351e"
 
   url "https://github.com/ridala/zentrack-download/releases/download/#{version}/ZenTrack-#{version}-macos-arm64.dmg",
       verified: "github.com/ridala/zentrack-download/"
