@@ -1,8 +1,8 @@
 cask "zentrack" do
-  version "0.0.1"
-  sha256 "a0b8ed5ffc6e14c11332f6f5dda859a708a3da5d63cdce5898bdc92db2842ebf"
+  version "0.0.11"
+  sha256 "cee64f48d022cad86aa95eee9d4e3be074d4961a7da76225fb7ecdf6ba2f6738"
 
-  url "https://github.com/ridala/zentrack-download/releases/download/v#{version}/ZenTrack-#{version}-macos-arm64.dmg",
+  url "https://github.com/ridala/zentrack-download/releases/download/#{version}/ZenTrack-#{version}-macos-arm64.dmg",
       verified: "github.com/ridala/zentrack-download/"
   name "ZenTrack"
   desc "Local-first time tracking and focus app"
